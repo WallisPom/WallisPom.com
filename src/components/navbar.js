@@ -11,7 +11,7 @@ import "../style/navbar.less";
 function SidebarContents() {
     return (
         <div className="sidebar-contents">
-            <div className="logo">
+            <div className="logo-icon">
                 <Link to="/">
                     <Logo />
                 </Link>
@@ -50,12 +50,13 @@ class Navbar extends React.Component {
     componentDidMount() {
         this.changeNavbarPlaceholderHeight();
 
-        let logo = this.nav.querySelector(".logo"),
-            _this = this;
+        // top left logo icon
+        // let logo = this.nav.querySelector(".logo"),
+        //     _this = this;
 
-        logo.addEventListener("load", function() {
-            _this.changeNavbarPlaceholderHeight();
-        });
+        // logo.addEventListener("load", function() {
+        //     _this.changeNavbarPlaceholderHeight();
+        // });
 
         this.changeNavbarHeight();
     }
@@ -115,9 +116,9 @@ class Navbar extends React.Component {
                             <Hamburger />
                         </span>
                     </a>
-                    <Link to="/">
+                    {/* <Link to="/">
                         <Logo />
-                    </Link>
+                    </Link> */}
                     <NavLinks />
                 </nav>
                 {placeholder && (

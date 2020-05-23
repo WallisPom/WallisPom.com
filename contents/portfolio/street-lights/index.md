@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 [row]
 [col]
-![image](./b1.jpg)
+![image](./kauai_powerpacks.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit
 

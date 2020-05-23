@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Img from "gatsby-image";
 import SEO from "../components/seo";
 import "../style/basepage.less";
+import SectionTitle from "../components/sectiontitle";
 
 export default function({ data }) {
     return (
@@ -16,7 +17,7 @@ export default function({ data }) {
             <div className="container">
                 <article className="post">
                     <div className="head text-primary">
-                        <h1>{data.markdownRemark.frontmatter.title}</h1>
+                        <SectionTitle title={data.markdownRemark.frontmatter.title}></SectionTitle>
                     </div>
                     <div className="content row flex">
                         {data.markdownRemark.frontmatter.image && (

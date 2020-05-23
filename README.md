@@ -40,7 +40,7 @@ let siteMetadata = {
     titleImage: `/images/wall.jpg`, // The main title is filled with an image.
     introTag: `PHOTOGRAPHER | VIDEOGRAPHER`, // Intro tag shown below title
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    author: `wallis`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true, // Whether to enable the darkmode. Change to false if you want the light mode
@@ -98,9 +98,6 @@ let siteMetadata = {
         /* Leave this completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname` 

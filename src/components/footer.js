@@ -28,7 +28,7 @@ export default function() {
                     <Navlinks />
                 </div>
                 <div
-                    className="navlinks text-secondary"
+                    className="navlinks text-secondary privacy"
                     style={{ marginTop: "20px" }}
                 >
                     <FooterLinks />

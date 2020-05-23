@@ -84,26 +84,25 @@ class Contact extends React.Component {
                 );
         }
     }
+    // Verify
 
-    componentDidMount() {
-        if (this.showContactForm) {
-            let color = window
-                .getComputedStyle(this.btn, null)
-                .getPropertyValue("color");
-            this.btn.querySelector("path").setAttribute("fill", color);
-        }
-
-        let li = this.contactArea.querySelectorAll(".item");
-
-        li.forEach(function(e, i) {
-            let p = e.querySelector("path");
-            if (p)
-                p.setAttribute(
-                    "fill",
-                    window.getComputedStyle(e, null).getPropertyValue("color")
-                );
-        });
-    }
+    // componentDidMount() {
+    //     if (this.showContactForm) {
+    //         let color = window
+    //             .getComputedStyle(this.btn, null)
+    //             .getPropertyValue("color");
+    //         this.btn.querySelector("path").setAttribute("fill", color);
+    //     }
+    //     let li = this.contactArea.querySelectorAll(".item");
+    //     li.forEach(function(e, i) {
+    //         let p = e.querySelector("path");
+    //         if (p)
+    //             p.setAttribute(
+    //                 "fill",
+    //                 window.getComputedStyle(e, null).getPropertyValue("color")
+    //             );
+    //     });
+    // }
 
     render() {
         return (
@@ -118,7 +117,7 @@ class Contact extends React.Component {
                     {this.showContactForm && (
                         <div className="col s12 m6">
                             <form>
-                                <div className="field">
+                                {/* <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
                                             Name
@@ -134,8 +133,8 @@ class Contact extends React.Component {
                                             />
                                         </div>
                                     </label>
-                                </div>
-                                <div className="field">
+                                </div> */}
+                                {/* <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
                                             Email
@@ -151,8 +150,8 @@ class Contact extends React.Component {
                                             />
                                         </div>
                                     </label>
-                                </div>
-                                <div className="field">
+                                </div> */}
+                                {/* <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
                                             Message
@@ -171,8 +170,8 @@ class Contact extends React.Component {
                                             />
                                         </div>
                                     </label>
-                                </div>
-                                <div className="field">
+                                </div> */}
+                                {/* <div className="field">
                                     <label className="ib">
                                         <button
                                             className={
@@ -216,8 +215,13 @@ class Contact extends React.Component {
                                             ref={c => (this.resMessage = c)}
                                         ></p>
                                     </label>
-                                </div>
+                                </div> */}
+                         
                             </form>
+                            
+                            <iframe src="https://wallispom.substack.com/embed" width="480" height="320" style={{"border":"1px solid #EEE",  "background":"#E0E0E0"}} frameborder="0" scrolling="no">
+                            </iframe>
+
                         </div>
                     )}
                     <div
@@ -247,7 +251,7 @@ class Contact extends React.Component {
                                     </a>
                                 </li>
                             )}
-                            {this.props.contact.phone && (
+                            {/* {this.props.contact.phone && (
                                 <li className="text-secondary item">
                                     <span className="icon">
                                         <Mobile />
@@ -267,7 +271,7 @@ class Contact extends React.Component {
                                     </span>
                                     {this.props.contact.address}
                                 </li>
-                            )}
+                            )} */}
                             <li>
                                 <SocialLinks />
                             </li>
@@ -275,8 +279,10 @@ class Contact extends React.Component {
                     </div>
                 </div>
             </section>
+        
         );
     }
+    
 }
 
 export default () => (
@@ -289,8 +295,6 @@ export default () => (
                             api_url
                             description
                             mail
-                            phone
-                            address
                         }
                     }
                 }

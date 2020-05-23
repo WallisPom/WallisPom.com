@@ -1,12 +1,12 @@
-const siteMetadata = {
-    title: `Elemental`,
+ const siteMetadata = {
+    title: `Wallis Pom`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    introTag: `Software Engineer`,
+    description: `Hi, I'm Wallis, a 4th year Computer Engineering Student at Queen's University. Check out my work!`,
     author: `@_akzhy`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -25,10 +25,10 @@ const siteMetadata = {
             name: "BLOG",
             url: "/blog"
         },
-        {
-            name: "PORTFOLIO",
-            url: "/portfolio"
-        },
+        // {
+        //     name: "PORTFOLIO",
+        //     url: "/portfolio"
+        // },
         {
             name: "CONTACT",
             url: "/contact"
@@ -45,34 +45,44 @@ const siteMetadata = {
         }
     ],
     social: [
-        {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "#"
-        },
+        // {
+        //     name: "Facebook",
+        //     icon: "/images/Facebook.svg",
+        //     url: "#"
+        // },
         {
             name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "#"
+            icon: "/images/twitter-2.svg",
+            url: "https://twitter.com/WallisPom"
         },
         {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "#"
+            name: "Linkedin",
+            icon: "/images/linkedin-2.svg",
+            url: "https://www.linkedin.com/in/wallispom/",
         },
         {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "#"
+            name: "Github",
+            icon: "/images/github-7.svg",
+            url: "https://github.com/WallisPom"
         }
+        // {
+        //     name: "Instagram",
+        //     icon: "/images/Instagram.svg",
+        //     url: "#"
+        // },
+        // {
+        //     name: "Youtube",
+        //     icon: "/images/Youtube.svg",
+        //     url: "#"
+        // }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        description: `Reach out to me below!`,
+        mail: "wallis.pom@gmail.com",
+        // phone: "000-000-0000",
+        // address: "1234 \nLocation \nLocation"
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname`

@@ -86,7 +86,7 @@ class IndexPage extends React.Component {
                     <div className="intro container">
                         <div className="main-title text-primary">
                             <svg
-                                width="90%"
+                                width="50%"
                                 height="220px"
                                 viewBox="0 0 100 100"
                                 preserveAspectRatio="xMidYMid slice"
@@ -117,8 +117,10 @@ class IndexPage extends React.Component {
                                         preserveAspectRatio="none"
                                     ></image>
                                 </pattern>
-                                <text
-                                    fill="url(#wallPattern)"
+                                <text class="name-title"
+                                // color="White"  
+                                // fill="linear-gradient(to left, #6888DF, #F55555) !important;"
+                                    // fill="url(#wallPattern)" is flowery pattern
                                     textAnchor="middle"
                                     x="50"
                                     y="50"
@@ -137,8 +139,8 @@ class IndexPage extends React.Component {
                         <p className="caption text-tertiary">
                             {this.props.data.site.siteMetadata.description}
                         </p>
-                        <a href="#portfolio" className="btn">
-                            SEE WORKS
+                        <a href="#blog" className="btn">
+                            Read More
                         </a>
                     </div>
                     <div className="social-buttons">
