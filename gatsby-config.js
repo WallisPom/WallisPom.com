@@ -1,3 +1,4 @@
+
  const siteMetadata = {
     title: `Wallis Pom`,
     siteUrl: `http://localhost`,
@@ -7,7 +8,7 @@
     titleImage: `/images/wall.jpg`,
     introTag: `Software Engineer`,
     description: `Hi, I'm Wallis, a 4th year Computer Engineering Student at Queen's University. Check out my work!`,
-    author: `@_akzhy`,
+    author: `Wallis Pom`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -39,10 +40,6 @@
             name: "PRIVACY POLICY",
             url: "/privacy-policy"
         },
-        {
-            name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
-        }
     ],
     social: [
         // {
